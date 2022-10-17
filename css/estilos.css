@@ -1,0 +1,691 @@
+/*General*/
+body
+{
+	font-family: 'Poppins', sans-serif;
+	color: #003569;
+}
+.bold
+{
+	font-weight: bold;
+}
+/*General*/
+
+/*Header*/
+header
+{
+	box-shadow: 0px 5px 10px -5px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0px 5px 10px -5px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0px 5px 10px -5px rgba(0,0,0,0.5);
+	padding: 10px 0px;
+}
+header .txt
+{
+	display: table;
+}
+header .txt div
+{
+	display: table-cell;
+	vertical-align: middle;
+}
+header .txt h4
+{
+	font-weight: 700;
+	margin-bottom: 0px;
+}
+header .txt h4 .naranja
+{
+	color: #ea762e;
+}
+header .txt h4 .verde
+{
+	color: #00944a;
+}
+header .redes
+{
+	display: table;
+	text-align: right;
+}
+header .redes div
+{
+	display: table-cell;
+	vertical-align: middle;
+}
+header .redes a
+{
+	background: #da0080;
+	color:  #fff;
+}
+header .redes a:hover
+{
+	box-shadow: 0px 0px 10px #da0080; 
+	-moz-box-shadow: 0px 0px 10px #da0080; 
+	-webkit-box-shadow: 0px 0px 10px #da0080;
+}
+header .redes a:nth-child(1)
+{
+	padding: 5px 7px 5px 10px;
+    border-radius: 30px;
+}
+header .redes a:nth-child(2)
+{
+	padding: 5px 11px 5px 12px;
+    border-radius: 30px;
+}
+/*Header*/
+
+/*Footer*/
+footer .footer1
+{
+	background: #c70276;
+	padding: 25px 0px;
+	border-bottom: solid 2px #f3a6d3;
+}
+footer .footer1 .logo-aviso a
+{
+	display: block;
+	color: #f3a6d3;
+	text-decoration: none;
+	cursor: pointer;
+}
+footer .footer1 .logo-aviso a:hover
+{
+	color: #ea762d;
+}
+footer .footer1 .tel-email
+{
+	padding-top: 20px;
+	text-align: center;
+}
+footer .footer1 .tel-email a
+{
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;	
+}
+footer .footer1 .tel-email a:nth-child(1)
+{
+	margin-right: 25px;
+}
+footer .footer1 .tel-email a i
+{
+	color: #f5b80b;
+}
+footer .footer1 .tel-email a:hover
+{
+	color: #ea762d;	
+}
+footer .footer1 .redes
+{
+	text-align: right;
+	padding-top: 20px;
+}
+footer .footer1 .redes a
+{
+	background: #ea762d;
+	color:  #fff;
+}
+footer .footer1 .redes a:hover
+{
+	box-shadow: 0px 0px 10px #ea762d; 
+	-moz-box-shadow: 0px 0px 10px #ea762d; 
+	-webkit-box-shadow: 0px 0px 10px #ea762d;
+}
+footer .footer1 .redes a:nth-child(1)
+{
+	padding: 5px 7px 5px 10px;
+    border-radius: 30px;
+}
+footer .footer1 .redes a:nth-child(2)
+{
+	padding: 5px 11px 5px 12px;
+    border-radius: 30px;
+}
+footer .footer2
+{
+	background: #c70276;
+	color: #fff;
+	padding: 25px 0px;
+}
+footer .footer3
+{
+	background: #a90164;
+	padding: 15px 0px;
+}
+footer .footer3 .derechos p
+{
+	margin-bottom: 0px;
+	color: #f3a6d3;
+	font-size: 14px;
+}
+/*Footer*/
+
+/*Modales*/
+.modal-backdrop 
+{
+   	background-color: #003569;
+   	opacity: 0.8 !important;   	
+}
+.modal-header
+{
+	padding: 25px;
+}
+.modal-header a
+{
+	position: absolute;
+    right: 15px;
+    font-size: 25px;
+    color: #da0080 !important;
+    cursor: pointer;
+}
+/*Modales*/
+
+/*Viajes*/
+.bg-viaje
+{
+	background: #e2ebf5;
+}
+.encabezado-viaje
+{
+	padding: 35px 0px;
+}
+.form-viaje-ida-regreso label
+{
+	width: 100%;
+	margin-bottom: 5px;
+}
+.form-viaje-ida-regreso input[type="date"]
+{
+	width: 100%;
+	margin-bottom: 15px;
+	border: solid 2px #dd5eaf;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: #003569;
+}
+.form-viaje-ida-regreso input[type="date"]:focus
+{
+	outline: none !important;
+}
+.form-viaje-ida-regreso input[type="date"]::-webkit-calendar-picker-indicator 
+{
+    background: url(../img/ico-input-date.png) no-repeat;
+    width: 20px;
+    height: 20px;    
+}
+#accordionIda
+{
+	padding-bottom: 35px;
+}
+#accordionIda .accordion-button
+{
+	background-color: #003569;
+	color: #fff;
+	font-weight: bold;
+}
+#accordionIda .accordion-button::after
+{
+	background-image: url(../img/ico-acc.png);
+	width: 20px;
+    height: 15px;
+}
+#accordionRegreso
+{
+	padding-bottom: 35px;
+}
+#accordionRegreso .accordion-button
+{
+	background-color: #003569;
+	color: #fff;
+	font-weight: bold;
+}
+#accordionRegreso .accordion-button::after
+{
+	background-image: url(../img/ico-acc.png);
+	width: 20px;
+    height: 15px;
+}
+.contenedor-viaje
+{
+	border: solid 2px #003569;
+	border-radius: 10px;
+	padding: 15px 50px;
+	margin-bottom: 25px;
+}
+.accordion-item
+{
+	color: #003569;
+}
+.contenedor-viaje .fecha
+{
+	color: #003569;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.contenedor-viaje .bus
+{
+	margin-bottom: 20px;
+}
+.contenedor-viaje .detalles
+{
+	margin-bottom: 20px;
+}
+.contenedor-viaje .btn-ver-detalles
+{
+	text-decoration: underline;
+	color: #da0080;
+	cursor: pointer;
+}
+.contenedor-viaje .carousel
+{
+	margin-bottom: 20px;
+}
+.contenedor-viaje .detalle
+{
+	margin-bottom: 20px;
+}
+.contenedor-viaje .detalle img
+{
+	margin-right: 20px;
+}
+.contenedor-viaje .partida
+{
+	margin-bottom: 10px;
+}
+.contenedor-viaje .partida .hora
+{
+	font-weight: bold;
+}
+.contenedor-viaje .partida a,
+.contenedor-viaje .partida a:hover
+{
+	text-decoration: underline;
+	cursor: pointer;
+}
+.contenedor-viaje .destino
+{
+	margin-bottom: 10px;
+}
+.contenedor-viaje .destino .hora
+{
+	font-weight: bold;
+}
+.contenedor-viaje .destino a,
+.contenedor-viaje .destino a:hover
+{
+	text-decoration: underline;
+	cursor: pointer;
+}
+.contenedor-viaje .btn-promo
+{
+	background: #00944a;
+	color: #fff;
+	text-align: center;
+	padding: 10px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+.contenedor-viaje .precio
+{
+	font-size: 26px;
+	font-weight: bold;
+	color: #da0080;
+}
+.contenedor-viaje .btn-elegir-asiento
+{
+	background: #ff571f;	
+	padding: 15px;
+	border-radius: 5px;
+	text-align: center;
+	font-weight: bold;	
+	font-size: 18px;
+	margin: 0 30px;
+}
+.contenedor-viaje .btn-elegir-asiento a
+{
+	color: #fff;
+	text-decoration: none;
+}
+.contenedor-viaje .fila-bus
+{
+	align-items: end;
+	padding-bottom: 25px;
+}
+.contenedor-viaje .fila-asientos
+{
+	border-top:  solid 2px #acbfd4;
+	padding-top: 25px;
+}
+.contenedor-viaje .fila-asientos .columna-asientos li.nav-item
+{
+	width: 50%;
+}
+.contenedor-viaje .fila-asientos .columna-asientos li.nav-item button.nav-link
+{
+	width: 100%;
+	color: #003569;
+	font-weight: bold;
+	border: none;
+	border-bottom: solid 1px #acbfd4;
+}
+.contenedor-viaje .fila-asientos .columna-asientos li.nav-item button.nav-link.active
+{
+	background: #e4f0fe;
+}
+.contenedor-viaje .fila-asientos .columna-asientos ol.seat-rows
+{
+	list-style: none;
+	padding: 15px 0px;
+}
+.contenedor-viaje .fila-asientos .columna-asientos ol.seat-rows li.seat-row ol
+{
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	padding: 0px;
+}
+.contenedor-viaje .fila-asientos .columna-asientos ol.seat-rows li.seat-row ol li.seat
+{
+	width: 40px;
+	height: 40px;
+	position: relative;
+	margin: 5px;
+}
+.contenedor-viaje .fila-asientos .columna-asientos ol.seat-rows li.seat-row ol li.seat.volante img
+{
+	width: 100%;
+}
+.contenedor-viaje .fila-asientos .columna-asientos ol.seat-rows li.seat-row ol li.seat label
+{
+	border: solid 1px #003569;
+	width: 40px;
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    left: 0;
+    top: 0;    
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+.contenedor-viaje .fila-asientos .columna-asientos ol.seat-rows li.seat-row ol li.seat input[type="checkbox"]
+{
+	visibility: hidden;
+}
+.contenedor-viaje .fila-asientos .columna-asientos ol.seat-rows li.seat-row ol li.seat input[type="checkbox"]:checked + label
+{
+	background: #f7965a;
+}
+.contenedor-viaje .fila-asientos .columna-asientos ol.seat-rows li.seat-row ol li.seat input[type="checkbox"]:disabled + label
+{
+	background: #e4e4e4;
+	color: #626262;
+	cursor: default;
+}
+.contenedor-viaje .fila-asientos .estatus-asientos
+{
+	font-size: 14px;
+	text-align: center;
+	border-bottom: solid 1px #b2c3d7;
+    padding-bottom: 25px;
+}
+.contenedor-viaje .fila-asientos .estatus-asientos p
+{
+	margin-bottom: 10px;
+}
+.contenedor-viaje .fila-asientos .estatus-asientos .libre span
+{
+	background: #fff;
+    padding: 5px 15px;
+    color: #fff;
+    border: solid 1px #003569;
+    border-radius: 5px;
+}
+.contenedor-viaje .fila-asientos .estatus-asientos .seleccionado span
+{
+	background: #f7965a;
+    padding: 5px 15px;
+    color: #f7965a;
+    border: solid 1px #003569;
+    border-radius: 5px;
+}
+.contenedor-viaje .fila-asientos .estatus-asientos .ocupado span
+{
+	background: #e4e4e4;
+    padding: 5px 15px;
+    color: #e4e4e4;
+    border: solid 1px #003569;
+    border-radius: 5px;
+}
+.contenedor-viaje .fila-asientos .resumen
+{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.contenedor-viaje .fila-asientos .resumen .seat
+{
+	font-weight: bold;
+}
+.contenedor-viaje .fila-asientos .resumen .price
+{
+	text-align: right;
+}
+.contenedor-viaje .fila-asientos .resumen .total
+{
+	text-align: right;
+	color: #da0080;
+	font-weight: bold;
+	font-size: 18px;
+}
+.contenedor-viaje .fila-asientos .btn-continuar button
+{
+	border: none;
+	color: #fff;
+	background: #da0080;
+	width: 100%;
+	padding: 10px;
+    border-radius: 10px;
+}
+/*Viajes*/
+
+/*TABLET*/
+@media screen and (min-width: 481px) and (max-width: 780px)
+{
+	/*Header*/
+	header .logo img
+	{
+		width: 100%;
+	}
+	/*Header*/
+	/*Footer*/
+	footer .footer1 .logo-aviso img
+	{
+		width: 100%;
+	}	
+	footer .footer1 .tel-email a
+	{
+		display: block;
+	}
+	footer .footer1 .tel-email a:nth-child(1)
+	{
+		margin-right: 0px;
+	}
+	/*Footer*/
+	/*Viajes*/
+	.contenedor-viaje .bus img
+	{
+		width: 100%;
+	}
+	.contenedor-viaje .detalles img
+	{
+		width: 100%;
+	}
+	.contenedor-viaje .btn-elegir-asiento
+	{
+		margin: 0;
+	}
+	.contenedor-viaje .fila-asientos .columna-asientos ol.seat-rows
+	{
+		display: flex;
+		justify-content: center;
+	}
+	.contenedor-viaje .fila-asientos .columna-asientos ol.seat-rows li.seat-row ol
+	{
+		flex-direction: column;
+	}
+	.contenedor-viaje .fila-asientos .columna-asientos ol.seat-rows li.seat-row:first-child
+	{
+		order: 5;
+	}
+	.contenedor-viaje .fila-asientos .columna-asientos ol.seat-rows li.seat-row:nth-child(2)
+	{
+		order: 4;
+	}
+	.contenedor-viaje .fila-asientos .columna-asientos ol.seat-rows li.seat-row:nth-child(3)
+	{
+		order: 3;
+	}
+	.contenedor-viaje .fila-asientos .columna-asientos ol.seat-rows li.seat-row:nth-child(4)
+	{
+		order: 2;
+	}
+	.contenedor-viaje .fila-asientos .columna-asientos ol.seat-rows li.seat-row:nth-child(5)
+	{
+		order: 1;
+	}
+	.contenedor-viaje .fila-asientos .estatus-asientos .libre,
+	.contenedor-viaje .fila-asientos .estatus-asientos .seleccionado,
+	.contenedor-viaje .fila-asientos .estatus-asientos .ocupado
+	{
+		margin-bottom: 10px;
+	}
+	/*Viajes*/
+}
+/*TABLET*/
+/*MOBILE*/
+@media screen and (max-width: 480px)
+{
+	/*Header*/
+	header .logo
+	{
+		text-align: center;
+	}
+	header .txt
+	{
+		text-align: center;	
+	}
+	header .redes
+	{
+		display: none;
+	}
+	/*Header*/
+	/*Footer*/
+	footer .footer1 .logo-aviso
+	{
+		width: 50%;
+	}	
+	footer .footer1 .tel-email
+	{
+		width: 50%;	
+		font-size: 12px;
+	}
+	footer .footer1 .tel-email a
+	{
+		display: block;
+	}
+	footer .footer1 .tel-email a:nth-child(1)
+	{
+		margin-right: 0px;
+	}
+	footer .footer1 .redes
+	{
+		text-align: center;
+	}
+	footer .footer3
+	{
+		text-align: center;
+	}
+	/*Footer*/
+	/*Viajes*/
+	.contenedor-viaje
+	{
+		padding: 15px;
+	}
+	.contenedor-viaje .bus img
+	{
+		width: 100%;
+	}
+	.contenedor-viaje .detalles img
+	{
+		width: 100%;
+	}
+	.contenedor-viaje .columna-bus
+	{
+		width: 50%;
+	}
+	.contenedor-viaje .columna-precio
+	{
+		width: 50%;
+	}
+	.contenedor-viaje .fila-bus
+	{
+		align-items: start;
+	}
+	.contenedor-viaje .btn-elegir-asiento
+	{
+		margin: 0;
+	}
+	.contenedor-viaje .fila-asientos .columna-asientos ol.seat-rows
+	{
+		display: flex;
+		justify-content: center;
+	}
+	.contenedor-viaje .fila-asientos .columna-asientos ol.seat-rows li.seat-row ol
+	{
+		flex-direction: column;
+	}
+	.contenedor-viaje .fila-asientos .columna-asientos ol.seat-rows li.seat-row:first-child
+	{
+		order: 5;
+	}
+	.contenedor-viaje .fila-asientos .columna-asientos ol.seat-rows li.seat-row:nth-child(2)
+	{
+		order: 4;
+	}
+	.contenedor-viaje .fila-asientos .columna-asientos ol.seat-rows li.seat-row:nth-child(3)
+	{
+		order: 3;
+	}
+	.contenedor-viaje .fila-asientos .columna-asientos ol.seat-rows li.seat-row:nth-child(4)
+	{
+		order: 2;
+	}
+	.contenedor-viaje .fila-asientos .columna-asientos ol.seat-rows li.seat-row:nth-child(5)
+	{
+		order: 1;
+	}
+	.contenedor-viaje .fila-asientos .estatus-asientos .libre,
+	.contenedor-viaje .fila-asientos .estatus-asientos .seleccionado,
+	.contenedor-viaje .fila-asientos .estatus-asientos .ocupado
+	{
+		width: 33%;
+	}
+	.contenedor-viaje .fila-asientos .estatus-asientos
+	{
+		font-size: 12px;
+	}
+	.contenedor-viaje .fila-asientos .resumen .seat,
+	.contenedor-viaje .fila-asientos .resumen .price
+	{
+		width: 50%;
+	}
+	/*Viajes*/
+}
+/*MOBILE*/
