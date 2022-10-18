@@ -2,16 +2,19 @@ $( document ).ready(function()
 {
     //BOTÓN PARA DESPLEGAR ASIENTOS
     //Varía según el número de filas que se tenga
-    $('#fila-asientos-ida1').hide();
+    //$('#fila-asientos-ida1').hide();
     $('#btn-fila-asientos-ida1').click(function(){
-        $('#fila-asientos-ida1').show();
+        $(this).toggleClass('active');
+        $('#fila-asientos-ida1').toggleClass('active');
     });
-    $('#fila-asientos-ida2').hide();
+    //$('#fila-asientos-ida2').hide();
     $('#btn-fila-asientos-ida2').click(function(){
-        $('#fila-asientos-ida2').show();
+        $(this).toggleClass('active');
+        $('#fila-asientos-ida2').toggleClass('active');
     });
-    $('#fila-asientos-regreso1').hide();
+    //$('#fila-asientos-regreso1').hide();
     $('#btn-fila-asientos-regreso1').click(function(){
-        $('#fila-asientos-regreso1').show();
+        $(this).toggleClass('active');
+        $('#fila-asientos-regreso1').toggleClass('active');
     });
 });

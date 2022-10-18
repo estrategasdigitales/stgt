@@ -340,6 +340,12 @@ footer .footer3 .derechos p
 	font-size: 18px;
 	margin: 0 30px;
 }
+
+.contenedor-viaje .btn-elegir-asiento a.active i
+{
+	transform: rotate(180deg);
+}
+
 .contenedor-viaje .btn-elegir-asiento a
 {
 	color: #fff;
@@ -354,7 +360,14 @@ footer .footer3 .derechos p
 {
 	border-top:  solid 2px #acbfd4;
 	padding-top: 25px;
+	display: none; 
 }
+
+.contenedor-viaje .fila-asientos.active
+{
+	display: block;
+}
+
 .contenedor-viaje .fila-asientos .columna-asientos li.nav-item
 {
 	width: 50%;
