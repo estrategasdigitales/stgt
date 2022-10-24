@@ -331,9 +331,7 @@ footer .footer3 .derechos p
 	color: #da0080;
 }
 .contenedor-viaje .btn-elegir-asiento
-{
-	background: #ff571f;	
-	padding: 15px;
+{			
 	border-radius: 5px;
 	text-align: center;
 	font-weight: bold;	
@@ -348,8 +346,11 @@ footer .footer3 .derechos p
 
 .contenedor-viaje .btn-elegir-asiento a
 {
+	background: #ff571f;
+	padding: 15px;
 	color: #fff;
 	text-decoration: none;
+	display: block;
 }
 .contenedor-viaje .fila-bus
 {
@@ -365,7 +366,7 @@ footer .footer3 .derechos p
 
 .contenedor-viaje .fila-asientos.active
 {
-	display: block;
+	display: flex;
 }
 
 .contenedor-viaje .fila-asientos .columna-asientos li.nav-item
@@ -813,6 +814,10 @@ footer .footer3 .derechos p
 	background: #009547;
 	color: #fff;
 	font-weight: bold;
+}
+.resumen-viaje .acepta-aviso a
+{
+	cursor: pointer;	
 }
 /*Reservar*/
 
