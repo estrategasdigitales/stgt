@@ -504,9 +504,326 @@ footer .footer3 .derechos p
 	background: #da0080;
 	width: 100%;
 	padding: 10px;
-    border-radius: 10px;
+  border-radius: 10px;
 }
 /*Viajes*/
+
+/*Home*/
+.banner-home
+{
+	position: relative;
+}
+.contenedor-form-viaje-home
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+.fila-form-viaje-home
+{
+	height: 100%;
+	align-items: center;
+}
+.form-viaje-home
+{
+	background: #fff;
+	padding: 15px 25px;
+	border-radius: 10px;
+}
+.form-viaje-home label,
+.form-viaje-home select,
+.form-viaje-home input[type="date"]
+{
+	width: 100%;
+}
+.form-viaje-home select
+{
+	margin-bottom: 15px;
+	border: solid 2px #dd5eaf;
+  padding: 5px 10px;
+  border-radius: 10px;
+  color: #003569;
+}
+.form-viaje-home input[type="date"]
+{
+	width: 100%;
+	margin-bottom: 15px;
+	border: solid 2px #dd5eaf;
+  padding: 5px 10px;
+  border-radius: 10px;
+  color: #003569;
+}
+.form-viaje-home input[type="date"]:focus
+{
+	outline: none !important;
+}
+.form-viaje-home input[type="date"]::-webkit-calendar-picker-indicator 
+{
+    background: url(../img/ico-input-date.png) no-repeat;
+    width: 20px;
+    height: 20px;    
+}
+.form-viaje-home button
+{
+	width: 100%;
+	text-align: center;
+	color: #fff;
+  background: #ff571f;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.form-viaje-home .form-switch
+{
+	margin-bottom: 10px;
+}
+.form-viaje-home .form-switch label
+{
+	width: auto;
+}
+.form-viaje-home .form-check-input:checked
+{
+	background-color: #ff571f;
+	border-color: #ff571f;
+}
+.form-viaje-home .fecha-vuelta
+{
+	display: none;
+}
+.form-viaje-home .fecha-vuelta.active
+{
+	display: block;
+}
+.nuestros-destinos-home
+{
+	background: #f0f3f7;
+	padding: 50px 0px;
+}
+.nuestros-destinos-home .titular-destinos-home
+{
+	text-align: center;
+	padding-bottom: 25px;
+}
+.nuestros-destinos-home .destino-home
+{
+	display: table;
+	border: solid 2px #003569;
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+.nuestros-destinos-home .destino-home .img-destino
+{
+	display: table-cell;
+	width: 30%;
+}
+.nuestros-destinos-home .destino-home .img-destino img
+{
+	width: 100%;
+}
+.nuestros-destinos-home .destino-home .info-destino
+{
+	display: table-cell;
+	vertical-align: middle;
+	width: 40%;
+	padding: 0px 15px;
+}
+.nuestros-destinos-home .destino-home .info-destino p
+{
+	margin-bottom: 5px;
+}
+.nuestros-destinos-home .destino-home .precio-destino
+{
+	display: table-cell;
+	vertical-align: middle;
+	width: 30%;
+	padding: 0px 15px;
+	text-align: right;
+	color: #da0080;
+}
+.nuestros-destinos-home .destino-home .precio-destino p
+{
+	margin-bottom: 0px;
+}
+.promocionales-home
+{
+	padding: 50px 0px;
+}
+.promocionales-home #carouselPromocionalesHome
+{
+	margin-bottom: 35px;
+}
+.promocionales-home #carouselPromocionalesHome .carousel-inner
+{
+	border-radius: 10px;
+}
+/*Home*/
+
+/*Pendiente*/
+.bg-pendiente
+{
+	background: url(../img/bg-pendiente.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 100px 0px;
+}
+.bg-pendiente img
+{
+	margin-bottom: 35px;
+}
+/*Pendiente*/
+
+/*Gracias*/
+.bg-gracias
+{
+	background: url(../img/bg-gracias.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 100px 0px;
+}
+.bg-gracias img
+{
+	margin-bottom: 35px;
+}
+/*Gracias*/
+
+/*Error*/
+.bg-error
+{
+	background: url(../img/bg-error.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 100px 0px;
+}
+.bg-error img
+{
+	margin-bottom: 35px;
+}
+/*Error*/
+
+/*Reservar*/
+.bg-reservar
+{
+	background: #e2ebf5;
+	padding: 35px 0px;
+}
+#accordionQuienes
+{
+	padding-bottom: 35px;
+}
+#accordionQuienes .accordion-button
+{
+	background-color: #003569;
+	color: #fff;
+	font-weight: bold;
+}
+#accordionQuienes .accordion-button::after
+{
+	background-image: url(../img/ico-acc.png);
+	width: 20px;
+    height: 15px;
+}
+#accordionContacto
+{
+	padding-bottom: 35px;
+}
+#accordionContacto .accordion-button
+{
+	background-color: #003569;
+	color: #fff;
+	font-weight: bold;
+}
+#accordionContacto .accordion-button::after
+{
+	background-image: url(../img/ico-acc.png);
+	width: 20px;
+    height: 15px;
+}
+#accordionPago
+{
+	padding-bottom: 35px;
+}
+#accordionPago .accordion-button
+{
+	background-color: #003569;
+	color: #fff;
+	font-weight: bold;
+}
+#accordionPago .accordion-button::after
+{
+	background-image: url(../img/ico-acc.png);
+	width: 20px;
+    height: 15px;
+}
+.form-quienes label
+{
+	width: 100%;
+}
+.form-quienes input[type="text"]
+{
+	width: 100%;
+	margin-bottom: 15px;
+  border: solid 2px #dd5eaf;
+  padding: 5px 10px;
+  border-radius: 10px;
+  color: #003569;
+}
+.form-contacto input[type="email"]
+{
+	width: 100%;
+	margin-bottom: 15px;
+  border: solid 2px #dd5eaf;
+  padding: 5px 10px;
+  border-radius: 10px;
+  color: #003569;
+}
+#tabPago li.nav-item
+{
+	width: 50%;
+}
+#tabPago li.nav-item button.nav-link.active
+{
+	background: #e4f0fe;
+}
+#tabPago li.nav-item button.nav-link
+{
+	width: 100%;
+  color: #003569;
+  font-weight: bold;
+  border: none;
+  border-bottom: solid 1px #acbfd4;
+}
+.resumen-viaje .total
+{
+	text-align: right;
+	color: #da0080;
+}
+.resumen-viaje .finalizar
+{
+	width: 100%;
+	border: none;
+	padding: 10px;
+	border-radius: 10px;
+	background: #009547;
+	color: #fff;
+	font-weight: bold;
+}
+/*Reservar*/
+
+/*Modal cargar*/
+#cargaModal .modal-content
+{
+	background: transparent;
+	border: none;
+	text-align: center;
+}
+/*Modal cargar*/
 
 /*TABLET*/
 @media screen and (min-width: 481px) and (max-width: 780px)
@@ -580,6 +897,22 @@ footer .footer3 .derechos p
 		margin-bottom: 10px;
 	}
 	/*Viajes*/
+	/*Home*/
+	#carouselHome
+	{
+		display: none;
+	}
+	.contenedor-form-viaje-home
+	{
+		position: relative;
+		background: #faca00;
+		padding: 15px 0px;
+	}
+	.nuestros-destinos-home .destino-home .info-destino
+	{
+		font-size: 12px;
+	}
+	/*Home*/
 }
 /*TABLET*/
 /*MOBILE*/
@@ -700,5 +1033,51 @@ footer .footer3 .derechos p
 		width: 50%;
 	}
 	/*Viajes*/
+	/*Home*/
+	#carouselHome
+	{
+		display: none;
+	}
+	.contenedor-form-viaje-home
+	{
+		position: relative;
+		background: #faca00;
+		padding: 15px 0px;
+	}
+	.mobile-no
+	{
+		display: none;
+	}
+	/*Home*/
+	/*Pendiente*/
+	.bg-pendiente
+	{
+		background: url(../img/bg-pendiente-mobile.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		padding: 100px 0px;
+	}
+	/*Pendiente*/
+	/*Gracias*/
+	.bg-gracias
+	{
+		background: url(../img/bg-gracias-mobile.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		padding: 100px 0px;
+	}
+	/*Gracias*/
+	/*Error*/
+	.bg-error
+	{
+		background: url(../img/bg-error-mobile.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		padding: 100px 0px;
+	}
+	/*Error*/
 }
 /*MOBILE*/

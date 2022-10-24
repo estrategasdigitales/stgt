@@ -1,3 +1,4 @@
+<!--HEADER-->
 <!DOCTYPE html>
 <html>
 <head>
@@ -52,3 +53,4 @@
 			</div>
 		</div>
 	</header>
+<!--HEADER-->

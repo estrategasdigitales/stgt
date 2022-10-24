@@ -20,7 +20,8 @@ $( document ).ready(function()
         $('#fila-asientos-ida1').removeClass('active');
         $('#fila-asientos-ida2').removeClass('active');
     });
-    //ABRIR/CERRAR ACORDEÓN DEPENDIENDO DEL QUE SE ABRA
+
+    //ABRIR/CERRAR ACORDEÓN DEPENDIENDO DEL QUE SE ABRA VIAJES
     $('#accordionIda .accordion-button').click(function()
     {
         $('#accordionRegreso .accordion-button').toggleClass('collapsed');
@@ -31,4 +32,11 @@ $( document ).ready(function()
         $('#accordionIda .accordion-button').toggleClass('collapsed');
         $('#accordionIda #collapseOneIda').toggleClass('show');
     });
+
+    //Habilitar campo de fecha vuelta en el form del home
+    $('#switch-viaje').change(function()
+    {
+        $('.form-viaje-home .fecha-vuelta').toggleClass('active');
+    });
+
 });

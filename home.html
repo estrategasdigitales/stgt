@@ -1,0 +1,332 @@
+<!--HEADER-->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>STGT</title>
+	<!--FONTAWESOME-->
+	<script src="https://kit.fontawesome.com/57b36b8610.js" crossorigin="anonymous"></script>
+	<!--FONTAWESOME-->
+	<!--FONTS-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+	<!--FONTS-->
+	<!--BOOTSTRAP-->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+	<!--BOOTSTRAP-->
+	<!--JQUERY-->
+	<script src="https://code.jquery.com/jquery-3.6.1.slim.min.js" integrity="sha256-w8CvhFs7iHNVUtnSP0YKEg00p9Ih13rlL9zGqvLdePA=" crossorigin="anonymous"></script>
+	<!--JQUERY-->
+	<!--ESTILOS-->
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<!--ESTILOS-->
+	<!--SCRIPTS-->
+	<script type="text/javascript" src="js/scripts.js"></script>
+	<!--SCRIPTS-->
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="row">
+				<!--Logo-->
+				<div class="col-sm-12 col-md-3 col-lg-3 logo">
+					<a href="#"><img src="img/logo.png"></a>
+				</div>
+				<!--Logo-->
+				<!--Texto-->
+				<div class="col-sm-12 col-md-7 col-lg-7 txt">
+					<div>
+						<h4>VIAJA EN EL <span class="naranja">MEJOR SERVICIO</span> AL <span class="verde">MEJOR PRECIO</span></h4>
+					</div>
+				</div>
+				<!--Texto-->
+				<!--Redes-->
+				<div class="col-sm-12 col-md-2 col-lg-2 redes">
+					<div>
+						<a href="#"><i class="fab fa-twitter"></i></a>
+						<a href="#"><i class="fab fa-facebook-f"></i></a>
+					</div>
+				</div>
+				<!--Redes-->
+			</div>
+		</div>
+	</header>
+<!--HEADER-->
+
+<!--Banner home-->
+<div class="banner-home">
+	<!--Carrusel banners-->
+	<div id="carouselHome" class="carousel slide" data-bs-ride="true">
+	  	<div class="carousel-indicators">
+	    	<button type="button" data-bs-target="#carouselHome" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+	    	<button type="button" data-bs-target="#carouselHome" data-bs-slide-to="1" aria-label="Slide 2"></button>
+	    	<button type="button" data-bs-target="#carouselHome" data-bs-slide-to="2" aria-label="Slide 3"></button>
+	  	</div>
+	  	<div class="carousel-inner">
+	    	<div class="carousel-item active">
+	      		<img src="img/banner3.jpg" class="img-fluid">
+	    	</div>
+	    	<div class="carousel-item">
+	      		<img src="img/banner3.jpg" class="img-fluid">
+	    	</div>
+	    	<div class="carousel-item">
+	      		<img src="img/banner3.jpg" class="img-fluid">
+	    	</div>
+	  	</div>	  	
+	</div>
+	<!--Carrusel banners-->
+	<!--Form seleccionar viaje-->
+	<div class="contenedor-form-viaje-home">
+		<div class="container" style="height: 100%;">
+			<div class="row fila-form-viaje-home">
+				<div class="col-sm-12 col-md-12 col-lg-4">
+					<form class="form-viaje-home">
+						<select name="origen">
+							<option disabled selected>ORIGEN</option>
+							<option value="CDMX">CDMX</option>
+							<option value="Guadalajara">Guadalajara</option>
+						</select>
+						<select name="destino">
+							<option disabled selected>DESTINO</option>
+							<option value="CDMX">CDMX</option>
+							<option value="Guadalajara">Guadalajara</option>
+						</select>
+						<label>FECHA DE IDA</label>
+						<input type="date" name="fecha-ida">
+						<div class="form-check form-switch">
+						  	<input class="form-check-input" type="checkbox" role="switch" id="switch-viaje">
+						  	<label class="form-check-label" for="switch-viaje">VIAJE REDONDO</label>
+						</div>
+						<div class="fecha-vuelta">
+							<label>FECHA DE VUELTA</label>
+							<input type="date" name="fecha-vuelta">
+						</div>					
+						<button>BUSCAR</button>
+					</form>
+				</div>
+				<div class="col-sm-12 col-md-12 col-lg-8"></div>
+			</div>
+		</div>
+	</div>
+	<!--Form seleccionar viaje-->
+</div>
+<!--Banner home-->
+
+<!--Nuestros destinos-->
+<div class="nuestros-destinos-home">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12 col-md-12 col-lg-12 titular-destinos-home">
+				<h2 class="bold">NUESTROS DESTINOS</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12 col-md-6 col-lg-4">
+				<div class="destino-home">
+					<div class="img-destino">
+						<img src="img/img-destino.png">
+					</div>
+					<div class="info-destino">
+						<p class="bold"><img src="img/ico-destino.png">CDMX</p>
+						<p class="bold"><img src="img/ico-destino.png">Guadalajara</p>
+						<p>Y de regreso</p>
+					</div>
+					<div class="precio-destino">
+						<p class="bold">DESDE</p>
+						<p class="bold">$419 MXN</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-12 col-md-6 col-lg-4">
+				<div class="destino-home">
+					<div class="img-destino">
+						<img src="img/img-destino.png">
+					</div>
+					<div class="info-destino">
+						<p class="bold"><img src="img/ico-destino.png">CDMX</p>
+						<p class="bold"><img src="img/ico-destino.png">Guadalajara</p>
+						<p>Y de regreso</p>
+					</div>
+					<div class="precio-destino">
+						<p class="bold">DESDE</p>
+						<p class="bold">$419 MXN</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-12 col-md-6 col-lg-4">
+				<div class="destino-home">
+					<div class="img-destino">
+						<img src="img/img-destino.png">
+					</div>
+					<div class="info-destino">
+						<p class="bold"><img src="img/ico-destino.png">CDMX</p>
+						<p class="bold"><img src="img/ico-destino.png">Guadalajara</p>
+						<p>Y de regreso</p>
+					</div>
+					<div class="precio-destino">
+						<p class="bold">DESDE</p>
+						<p class="bold">$419 MXN</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--Nuestros destinos-->
+
+<!--Promocionales-->
+<div class="promocionales-home">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<!--Carrusel promocionales-->
+				<div id="carouselPromocionalesHome" class="carousel slide" data-bs-ride="true">
+				  	<div class="carousel-indicators">
+				    	<button type="button" data-bs-target="#carouselPromocionalesHome" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+				    	<button type="button" data-bs-target="#carouselPromocionalesHome" data-bs-slide-to="1" aria-label="Slide 2"></button>
+				    	<button type="button" data-bs-target="#carouselPromocionalesHome" data-bs-slide-to="2" aria-label="Slide 3"></button>
+				  	</div>
+				  	<div class="carousel-inner">
+				    	<div class="carousel-item active">
+				      		<img src="img/banner-promocional.png" class="img-fluid">
+				    	</div>
+				    	<div class="carousel-item">
+				      		<img src="img/banner-promocional.png" class="img-fluid">
+				    	</div>
+				    	<div class="carousel-item">
+				      		<img src="img/banner-promocional.png" class="img-fluid">
+				    	</div>
+				  	</div>	  	
+				</div>
+				<!--Carrusel promocionales-->
+			</div>
+		</div>
+		<div class="row mobile-no">
+			<div class="col-sm-12 col-md-4 col-lg-4">
+				<img src="img/promo1.png" class="img-fluid">	
+			</div>
+			<div class="col-sm-12 col-md-4 col-lg-4">
+				<img src="img/promo2.png" class="img-fluid">	
+			</div>
+			<div class="col-sm-12 col-md-4 col-lg-4">
+				<img src="img/promo3.png" class="img-fluid">	
+			</div>
+		</div>
+	</div>
+</div>
+<!--Promocionales-->
+
+<!--FOOTER-->
+<footer>
+	<div class="footer1">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 col-md-3 col-lg-3 logo-aviso">
+					<a href="#"><img src="img/logo-footer.png"></a>
+					<a data-bs-toggle="modal" data-bs-target="#politicasModal">Políticas Generales</a>
+					<a data-bs-toggle="modal" data-bs-target="#terminosModal">Términos y Condiciones</a>
+					<a data-bs-toggle="modal" data-bs-target="#avisoModal">Aviso de Privacidad</a>
+				</div>
+				<div class="col-sm-6 col-md-6 col-lg-6 tel-email">
+					<a href="tel:+527223980285"><i class="fas fa-phone"></i> +52 (722) 3980285</a>				
+					<a href="mailto:info@exprebus.com"><i class="fas fa-envelope"></i> info@exprebus.com</a>
+				</div>
+				<div class="col-sm-12 col-md-3 col-lg-3 redes">
+					<a href="#"><i class="fab fa-twitter"></i></a>
+					<a href="#"><i class="fab fa-facebook-f"></i></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer2">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 col-md-12 col-lg-12 reserva">
+					<p>PAGA TU RESERVA EN:</p>
+					<img src="img/pagos.png">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer3">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 col-md-12 col-lg-12 derechos">
+					<p>Todos los derechos reservados EXPREBUS 2022 &COPY;</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<!--Modal Políticas Generales-->
+<!--LLENAR CON LA INFORMACIÓN CORRESPONDIENTE-->
+<div class="modal fade" id="politicasModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="politicasModalLabel" aria-hidden="true">
+  	<div class="modal-dialog modal-dialog-centered modal-lg">
+    	<div class="modal-content">
+      		<div class="modal-header">        		
+        		<a data-bs-dismiss="modal" aria-label="Close"><i class="fas fa-times"></i></a>
+      		</div>
+      		<div class="modal-body">
+        		<h5>POLÍTICAS GENERALES</h5>
+        		<h6>OBJETIVO ALCANCE:</h6>
+				<p>El presente aviso de privacidad tiene como objetivo salvaguardar los datos personales en posesión de la empresa ÓMNIBUS DE MÉXICO, S.A. DE C.V. y/o sus filiales, en estricto apego a los establecido por el artículo 1º y demás relativos y aplicables de la Ley Federal de Protección de Datos Personales en Posesión de Particulares.</p>
+				<p>Se aplica a toda la información e incluye la información personal recopilada sobre usted por ÓMNIBUS DE MÉXICO, S.A. DE C.V. y sus filiales o subordinadas y coordinadas.</p>
+				<h6>ACERCA DE LA INFORMACIÓN QUE RECOPILAMOS.</h6>
+				<p>Para disfrutar de los servicios de ÓMNIBUS DE MÉXICO, S.A. DE C.V. y sus filiales, es indispensable,proporcionar ciertos datos personales (Información Personal) los cuales, por la naturaleza del negocio en algunos casos deberán ser completos y exactos. Podremos solicitar, recabar y almacenar la siguiente</p>
+      		</div>      		
+    	</div>
+  </div>
+</div>
+<!--Modal Políticas Generales-->
+
+<!--Modal Términos y Condiciones-->
+<!--LLENAR CON LA INFORMACIÓN CORRESPONDIENTE-->
+<div class="modal fade" id="terminosModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="terminosModalLabel" aria-hidden="true">
+  	<div class="modal-dialog modal-dialog-centered modal-lg">
+    	<div class="modal-content">
+      		<div class="modal-header">        		
+        		<a data-bs-dismiss="modal" aria-label="Close"><i class="fas fa-times"></i></a>
+      		</div>
+      		<div class="modal-body">
+        		<h5>TÉRMINOS Y CONDICIONES</h5>
+        		<h6>OBJETIVO ALCANCE:</h6>
+				<p>El presente aviso de privacidad tiene como objetivo salvaguardar los datos personales en posesión de la empresa ÓMNIBUS DE MÉXICO, S.A. DE C.V. y/o sus filiales, en estricto apego a los establecido por el artículo 1º y demás relativos y aplicables de la Ley Federal de Protección de Datos Personales en Posesión de Particulares.</p>
+				<p>Se aplica a toda la información e incluye la información personal recopilada sobre usted por ÓMNIBUS DE MÉXICO, S.A. DE C.V. y sus filiales o subordinadas y coordinadas.</p>
+				<h6>ACERCA DE LA INFORMACIÓN QUE RECOPILAMOS.</h6>
+				<p>Para disfrutar de los servicios de ÓMNIBUS DE MÉXICO, S.A. DE C.V. y sus filiales, es indispensable,proporcionar ciertos datos personales (Información Personal) los cuales, por la naturaleza del negocio en algunos casos deberán ser completos y exactos. Podremos solicitar, recabar y almacenar la siguiente</p>
+      		</div>      		
+    	</div>
+  </div>
+</div>
+<!--Modal Términos y Condiciones-->
+
+<!--Modal Aviso de privacidad-->
+<!--LLENAR CON LA INFORMACIÓN CORRESPONDIENTE-->
+<div class="modal fade" id="avisoModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="avisoModalLabel" aria-hidden="true">
+  	<div class="modal-dialog modal-dialog-centered modal-lg">
+    	<div class="modal-content">
+      		<div class="modal-header">        		
+        		<a data-bs-dismiss="modal" aria-label="Close"><i class="fas fa-times"></i></a>
+      		</div>
+      		<div class="modal-body">
+        		<h5>AVISO DE PRIVACIDAD</h5>
+        		<h6>OBJETIVO ALCANCE:</h6>
+				<p>El presente aviso de privacidad tiene como objetivo salvaguardar los datos personales en posesión de la empresa ÓMNIBUS DE MÉXICO, S.A. DE C.V. y/o sus filiales, en estricto apego a los establecido por el artículo 1º y demás relativos y aplicables de la Ley Federal de Protección de Datos Personales en Posesión de Particulares.</p>
+				<p>Se aplica a toda la información e incluye la información personal recopilada sobre usted por ÓMNIBUS DE MÉXICO, S.A. DE C.V. y sus filiales o subordinadas y coordinadas.</p>
+				<h6>ACERCA DE LA INFORMACIÓN QUE RECOPILAMOS.</h6>
+				<p>Para disfrutar de los servicios de ÓMNIBUS DE MÉXICO, S.A. DE C.V. y sus filiales, es indispensable,proporcionar ciertos datos personales (Información Personal) los cuales, por la naturaleza del negocio en algunos casos deberán ser completos y exactos. Podremos solicitar, recabar y almacenar la siguiente</p>
+      		</div>      		
+    	</div>
+  </div>
+</div>
+<!--Modal Aviso de privacidad-->
+
+<!--Bootstrap-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+<!--Bootstrap-->
+</body>
+</html>
+<!--FOOTER-->
