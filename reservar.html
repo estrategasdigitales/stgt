@@ -25,6 +25,9 @@
 	<!--SCRIPTS-->
 	<script type="text/javascript" src="js/scripts.js"></script>
 	<!--SCRIPTS-->
+	<!--RECAPTCHA-->
+	<script src="https://www.google.com/recaptcha/api.js"></script>
+	<!--RECAPTCHA-->
 </head>
 <body>
 	<header>
@@ -182,6 +185,7 @@
 				</div>
 				<hr>
 				<p class="acepta-aviso"><input type="checkbox" name="aviso"> Acepto <a data-bs-toggle="modal" data-bs-target="#terminosModal">términos y condiciones</a> al momento de realizar el pago</p>
+				<div style="margin-bottom: 15px;" class="g-recaptcha" data-sitekey="6Ldj5bAiAAAAACs0zJfDyLp2lnA7en-oYJMnj7YW" data-callback="correctCaptcha"></div>
 				<button class="finalizar"><i class="far fa-credit-card"></i> FINALIZAR COMPRA</button>
 			</div>
 		</div>
