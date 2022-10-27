@@ -616,6 +616,10 @@ footer .footer3 .derechos p
   border-radius: 15px;
   margin-bottom: 15px;
 }
+.nuestros-destinos-home .destino-home a
+{
+	text-decoration: none;
+}
 .nuestros-destinos-home .destino-home .img-destino
 {
 	display: table-cell;
@@ -625,12 +629,13 @@ footer .footer3 .derechos p
 {
 	width: 100%;
 }
-.nuestros-destinos-home .destino-home .info-destino
+.nuestros-destinos-home .destino-home  .info-destino
 {
 	display: table-cell;
 	vertical-align: middle;
 	width: 40%;
 	padding: 0px 15px;
+	color: #003569;
 }
 .nuestros-destinos-home .destino-home .info-destino p
 {
@@ -818,6 +823,8 @@ footer .footer3 .derechos p
 .resumen-viaje .acepta-aviso a
 {
 	cursor: pointer;	
+	font-weight: bold;
+	text-decoration: underline;
 }
 /*Reservar*/
 
