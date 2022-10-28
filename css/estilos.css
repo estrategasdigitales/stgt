@@ -561,8 +561,7 @@ iframe{
 	border: solid 2px #dd5eaf;
   padding: 5px 10px;
   border-radius: 10px;
-  color: #003569;
-  min-width:100%; 
+  color: #003569; 
 }
 .form-viaje-home input[type="date"]:focus
 {
