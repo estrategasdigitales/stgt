@@ -61,7 +61,7 @@ $( document ).ready(function()
     //Activar el selector de fecha en home con asignación de icono y formato
     $( function() {
         $( ".datepicker" ).datepicker( {
-               dateFormat:"dd-mm-yy", 
+               dateFormat:"dd/mm/yy", 
                showOn: "button",
                buttonImage: "img/ico-input-date.png",
                buttonImageOnly: true
