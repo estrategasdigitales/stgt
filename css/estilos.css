@@ -563,6 +563,25 @@ iframe{
   border-radius: 10px;
   color: #003569; 
 }
+.form-viaje-home #contdatepicker{
+	
+	margin-bottom: 15px;
+	border: solid 2px #dd5eaf;
+      padding: 0px 0px;
+  border-radius: 10px;
+  color: #003569; 
+}
+.form-viaje-home .datepicker{
+	    width: 91%;
+	background-color: transparent;
+	border: 0px;
+  padding: 5px 10px;
+  
+  color: #003569; 
+}
+.ui-datepicker-trigger{
+	
+}
 .form-viaje-home input[type="date"]:focus
 {
 	outline: none !important;
