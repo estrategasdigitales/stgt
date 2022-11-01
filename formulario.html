@@ -22,14 +22,14 @@
 	<!--ESTILOS-->
 	<link rel="stylesheet" type="text/css" href="css/estilos.css">
 	<!--ESTILOS-->
-	<!--JQUERY UI-->
-	<link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
-  	<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
-  	<!--JQUERY UI-->
 	<!--SCRIPTS-->
 	<script type="text/javascript" src="js/scripts.js"></script>
 	<!--SCRIPTS-->
-
+	<!--JQUERY UI-->
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  	<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.1/i18n/jquery.ui.datepicker-es.min.js" crossorigin="anonymous"></script>
+  	<!--JQUERY UI-->
 </head>
 <body>
 	
@@ -58,7 +58,7 @@
 	</select>
 	<label>FECHA DE IDA</label>
 	<div id="contdatepicker">
-		<input type="text" class="datepicker" placeholder="dd/mm/aaaa">
+		<input type="text" id="datepicker" onclick="$('#datepicker').datepicker();$('#datepicker').datepicker('show');" placeholder="dd/mm/aaaa">
 	</div>
 	<div class="form-check form-switch">
 	  	<input class="form-check-input" type="checkbox" role="switch" id="switch-viaje">
@@ -67,7 +67,7 @@
 	<div class="fecha-vuelta">
 		<label>FECHA DE VUELTA</label>
 		<div id="contdatepicker">
-			<input type="text" class="datepicker" placeholder="dd/mm/aaaa" name="fecha-vuelta">
+			<input type="text" id="datepicker2" onclick="$('#datepicker2').datepicker();$('#datepicker2').datepicker('show');" placeholder="dd/mm/aaaa" name="fecha-vuelta">
 		</div>
 	</div>					
 	<button>BUSCAR</button>

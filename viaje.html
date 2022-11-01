@@ -2,29 +2,34 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>STGT</title>
-	<!--FONTAWESOME-->
-	<script src="https://kit.fontawesome.com/57b36b8610.js" crossorigin="anonymous"></script>
-	<!--FONTAWESOME-->
-	<!--FONTS-->
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
-	<!--FONTS-->
-	<!--BOOTSTRAP-->
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-	<!--BOOTSTRAP-->
-	<!--JQUERY-->
-	<script src="https://code.jquery.com/jquery-3.6.1.slim.min.js" integrity="sha256-w8CvhFs7iHNVUtnSP0YKEg00p9Ih13rlL9zGqvLdePA=" crossorigin="anonymous"></script>
-	<!--JQUERY-->
-	<!--ESTILOS-->
-	<link rel="stylesheet" type="text/css" href="css/estilos.css">
-	<!--ESTILOS-->
-	<!--SCRIPTS-->
-	<script type="text/javascript" src="js/scripts.js"></script>
-	<!--SCRIPTS-->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>STGT</title>
+  <!--FONTAWESOME-->
+  <script src="https://kit.fontawesome.com/57b36b8610.js" crossorigin="anonymous"></script>
+  <!--FONTAWESOME-->
+  <!--FONTS-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <!--FONTS-->
+  <!--BOOTSTRAP-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <!--BOOTSTRAP-->
+  <!--JQUERY-->
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <!--JQUERY-->
+  <!--ESTILOS-->
+  <link rel="stylesheet" type="text/css" href="css/estilos.css">
+  <!--ESTILOS-->
+  <!--SCRIPTS-->
+  <script type="text/javascript" src="js/scripts.js"></script>
+  <!--SCRIPTS-->
+  <!--JQUERY UI-->
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.1/i18n/jquery.ui.datepicker-es.min.js" crossorigin="anonymous"></script>
+  <!--JQUERY UI-->
 </head>
 <body>
 	<header>
@@ -70,9 +75,15 @@
 				<h2 class="bold">FECHAS:</h2>
 				<form class="form-viaje-ida-regreso">
 					<label>Ida</label>
-					<input type="date" name="fecha-ida" onfocus="this.showPicker()">
+          <div id="contdatepicker">
+            <input type="text" id="datepicker" onclick="$('#datepicker').datepicker();$('#datepicker').datepicker('show');" placeholder="dd/mm/aaaa">
+          </div>
+					
 					<label>Regreso</label>
-					<input type="date" name="fecha-regreso" onfocus="this.showPicker()">
+          <div id="contdatepicker">
+            <input type="text" id="datepicker2" onclick="$('#datepicker2').datepicker();$('#datepicker2').datepicker('show');" placeholder="dd/mm/aaaa" name="fecha-vuelta">
+          </div>
+					
 				</form>
 			</div>
 			<div class="col-sm-12 col-md-1 col-lg-1">

@@ -563,7 +563,7 @@ iframe{
   border-radius: 10px;
   color: #003569; 
 }
-.form-viaje-home #contdatepicker{
+.form-viaje-home #contdatepicker,.form-viaje-ida-regreso #contdatepicker{
 	
 	margin-bottom: 15px;
 	border: solid 2px #dd5eaf;
@@ -571,13 +571,16 @@ iframe{
   border-radius: 10px;
   color: #003569; 
 }
-.form-viaje-home .datepicker{
+.form-viaje-home #datepicker,.form-viaje-home #datepicker2,.form-viaje-ida-regreso #datepicker,.form-viaje-ida-regreso #datepicker2{
 	    width: 91%;
 	background-color: transparent;
 	border: 0px;
   padding: 5px 10px;
   
   color: #003569; 
+}
+.form-viaje-ida-regreso #contdatepicker{
+	background-color: #ffffff;
 }
 .ui-datepicker-trigger{
 	
